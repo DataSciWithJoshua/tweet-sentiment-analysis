@@ -1,0 +1,15 @@
+[project]
+name = "temp"
+version = "0.1"
+dependencies = [
+    "pandas==2.2.0",
+    "setuptools==72.1.0",
+    "scikit-learn==1.6.0",
+    "ipykernel==6.29.5",
+    "matplotlib",
+    "seaborn",
+    "nltk",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["data", "assets"]
